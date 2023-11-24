@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="makeup.css">
+    <title>Vilken tjänst kör han för idag?</title>
+</head>
+<body>
+    <header class="h2"> Vilken tjänst kör han för idag?</header>
+    <div>
+        <div class="service" id="service">
+            <button class="foodora" onclick="addSighting(1)"></button>
+            <button class = "wolt"onclick="addSighting(2)"></button>
+            <button class="button" onclick="history()">Historik</button>
+        </div>
+        <div id="input" class="input">
+            <p>Var sågs han?</p>
+            <input type="text" id="spot">
+            <button onclick="storeSighting()">Registrera</button>
+        </div>
+        <div class="divData" id="divData">
+            <div class="divFoodora">
+                <p class="h1">Foodora</p>
+                <p id="p1"></p>
+            </div>
+            <div class="divWolt">
+                <p class="h1">Wolt</p>
+                <p id="p2"></p>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
+<script src="app.js"></script>

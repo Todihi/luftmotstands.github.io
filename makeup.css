@@ -1,0 +1,70 @@
+.dataDiv {
+    width: 500px;
+    border: 1px solid black;
+    color: white;
+}
+
+.input {
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+}
+
+.service{
+    width: 30%;
+    margin: auto;
+}
+
+.divFoodora {
+    width: auto;
+    margin-left: 150px;
+    float: left;
+    border: 10px solid #D60665;
+    background-color: #D60665;
+    text-align: center;
+    color: white;
+    margin: auto;
+}
+.divWolt {
+    width: auto;
+    margin-right: 150px;
+    float:right;
+    border: 10px solid #009DE0;
+    background-color: #009DE0;
+    text-align: center;
+    color: white;
+    margin: auto;
+
+}
+.h1 {
+    font-size: 50px;
+    color: white;
+}
+.h2 {
+    font-size: 50px;
+    color: black;
+    text-align: center;
+}
+.foodora {
+    background-image: url(bilder/Foodora.png);
+    height: 170px;
+    width: 170px;
+    border: none;
+    margin: auto;
+    
+}
+.wolt {
+    background-image: url(bilder/Wolt.png);
+    height: 170px;
+    width: 170px;
+    margin: auto;
+    border: none;
+
+}
+.button {
+    height: 105 px;
+    width: 105px;
+    margin-left: 30%;
+    text-align: center;
+}
