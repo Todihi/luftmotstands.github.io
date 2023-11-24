@@ -47,7 +47,7 @@
     text-align: center;
 }
 .foodora {
-    background-image: url(bilder/Foodora.png);
+    background-image: url(Foodora.png);
     height: 170px;
     width: 170px;
     border: none;
@@ -55,7 +55,7 @@
     
 }
 .wolt {
-    background-image: url(bilder/Wolt.png);
+    background-image: url(Wolt.png);
     height: 170px;
     width: 170px;
     margin: auto;
